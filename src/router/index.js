@@ -15,6 +15,15 @@ import News from '@/pages/News'
 import Security from '@/pages/Security'
 import NewsDetail from '@/pages/newsdetail'
 import Activity from '@/pages/activity'
+import Withdraw from '@/pages/withdraw'
+import Rechange from '@/pages/rechange'
+import BillRecord from '@/pages/billrecord'
+import MoneyRecord from '@/pages/moneyrecord'
+import InviteFriend from '@/pages/invitefriend'
+import BankManage from '@/pages/bankmanage'
+import MyReward from '@/pages/myreward'
+import BillList from '@/pages/billlist'
+import More from '@/pages/more'
 
 Vue.use(Router)
 
@@ -40,8 +49,8 @@ export default new Router({
     {
     	path:'/my',
     	name:'My',
-    	component:My,
-    	alias:'/login' /*别名、路由显示my,匹配规则为login,router-view显示login*/
+    	component:My
+    	/*alias:'/login' 别名、路由显示my,匹配规则为login,router-view显示login*/
     },{
     	path:'/finical',
     	name:'Finical',
@@ -50,9 +59,7 @@ export default new Router({
     },{
     	path:'/login',
     	name:'Login',
-    	component:Login,
-    	children:[
-    	]
+    	component:Login
     },{
         path:'/sign',
         name:'Sign',
@@ -89,6 +96,42 @@ export default new Router({
       path:'/activity',
       name:'activity',
       component:Activity
+    },{
+      path:'/withdraw',
+      name:'withdraw',
+      component:Withdraw
+    },{
+      path:'/rechange',
+      name:'rechange',
+      component:Rechange
+    },{
+      path:'/moneyrecord',
+      name:'moneyrecord',
+      component:MoneyRecord
+    },{
+      path:'/billrecord',
+      name:'billrecord',
+      component:BillRecord
+    },{
+      path:'/invitefriend',
+      name:'invitefriend',
+      component:InviteFriend
+    },{
+      path:'/more',
+      name:'more',
+      component:More
+    },{
+      path:'/bankmanage',
+      name:'bankmanage',
+      component:BankManage
+    },{
+      path:'/billlist',
+      name:'billlist',
+      component:BillList}
+    ,{
+      path:'/myreward',
+      name:'myreward',
+      component:MyReward
     }
   ],
   scrollBehavior(to,from,savedPosition){

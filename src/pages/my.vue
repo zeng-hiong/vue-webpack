@@ -49,17 +49,17 @@
       </div>
       <div class="part">
          <ul>
-            <li v-for='lst in list'><img :src="lst.src" alt="">{{lst.name}}<img src="../assets/arrow.png"  alt=""  /></li>
+            <li v-for='lst in list'><router-link :to='lst.path'><img :src="lst.src" alt="">{{lst.name}}<img src="../assets/arrow.png"  alt=""  /></router-link></li>
          </ul>
       </div>
       <div class="part">
         <ul>
-          <li v-for='lst in list1'><img :src="lst.src" alt="">{{lst.name}}<img src="../assets/arrow.png" alt="" /></li>
+          <li v-for='lst in list1'><router-link :to='lst.path'><img :src="lst.src" alt="">{{lst.name}}<img src="../assets/arrow.png" alt="" /></router-link></li>
         </ul>
       </div>
       <div class="part">
           <ul>
-          <li v-for='lst in list2'><img :src="lst.src" alt="">{{lst.name}}<img src="../assets/arrow.png" alt=""  /></li>
+          <li v-for='lst in list2'><router-link :to="lst.path"><img :src="lst.src" alt="">{{lst.name}}<img src="../assets/arrow.png" alt=""  /></router-link></li>
         </ul>
       </div>
   </div>
@@ -70,13 +70,13 @@ export default {
   name: 'My',
   data () {
     return {
-      list:[{src:'../../static/myaward.png',name:'我的奖励'},{
-        src:'../../static/invrcd.png',name:'投标记录'
+      list:[{src:require('../assets/myaward.png'),name:'我的奖励',path:'/myreward'},{
+        src:require('../assets/invrcd.png'),name:'投标记录',path:'/billrecord'
       },{
-        src:'../../static/invrcd.png',name:'资金记录'
+        src:require('../assets/invrcd.png'),name:'资金记录',path:'/moneyrecord'
       }],
-      list1:[{src:'../../static/banklo.png',name:'银行卡管理'},{src:'../../static/billlist.png',name:'理财账单'}],
-      list2:[{src:'../../static/invifriend.png',name:'邀请好友'},{src:'../../static/more.png',name:'更多'}]
+      list1:[{src:require('../assets/banklo.png'),name:'银行卡管理',path:"/bankmanage"},{src:require('../assets/billlist.png'),name:'理财账单',path:'billlist'}],
+      list2:[{src:require('../assets/invifriend.png'),name:'邀请好友',path:'/invitefriend'},{src:require('../assets/more.png'),name:'更多',path:'/more'}]
     }
   },
   components:{}
@@ -234,7 +234,9 @@ export default {
     right: 0.1rem;
     width:0.15rem;
    }
-
+  li a{
+    width: 100%;
+  }
 </style>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 

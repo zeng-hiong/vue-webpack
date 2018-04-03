@@ -15,8 +15,8 @@
         <div>
           宝元贷尽可能公示完整借款人信息、借款材料、担保函等资料，给予出借人充分知情权，出借人可以根据自己的需求及实际情况进行分散投资。同时，宝元贷与合作担保机构将对借款进行全程的监管跟踪服务，包括抵押的评估、企业的还款来源分析等，让出借人省时省心。
         </div>
-        <img src="../assets/mesctcon.png" height="133" width="202" alt="">
-        <img src="../assets/lawprtit.png" height="29" width="42"><br>
+        <img src="../assets/mesctcon.png" height="133" width="202" alt=""><br>
+        <img src="../assets/lawprtit.png" height="29" width="42">
         <div>宝元贷致力于为广大急需投资渠道的人群和有借款需求的人群搭建一个信息透明、诚信度高、风险低、回报稳定、成本可控的互联网借贷撮合平台。据我国《合同法》及其它相关法律法规规定，我国法律允许普通民事主体之间发生借贷关系，并认可借款人还本付息的合法性。出借人及借款人之间的借贷行为、宝元贷提供的居间服务及全部电子合同均具备法律效力，出借人受到法律保护。宝元贷通过严格的风险审核，使民间借贷更加规范、阳光、透明，更用专业的风控手段和代偿机制大大降低了坏账风险。平台项目获购满额后即生成合同，合同条款由专业律师拟定，文件合法、有效。</div>
         <img src="../assets/lawprtcon.png" height="67" width="238" alt=""><br>
         <img src="../assets/webkitprtit.png" height="29" width="60">

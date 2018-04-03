@@ -40,6 +40,7 @@ export default {
 <style scoped>
    #centerpart{
     position:relative;
+    background: #fff;
    }
    #centerpart>img{
       width:88%;
