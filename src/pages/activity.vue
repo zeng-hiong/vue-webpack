@@ -62,6 +62,7 @@ export default {
    }
    li>div{
     position: relative;
+    font-size: 0
    }
    .mask span{
     position: absolute;

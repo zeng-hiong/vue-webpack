@@ -71,8 +71,7 @@ export default {
       border-bottom: 1px solid #e4e4e4;
       position: relative;
       padding:0.15rem 0;
-      font-size: 0.3rem;
-    }
+      font-size: 0.3rem;   }
     a{width:100%;}
     img{
       width: 0.4rem;

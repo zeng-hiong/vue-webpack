@@ -60,7 +60,7 @@ export default {
       {title:'1纷8月，清凉一夏！活动奖名单。',time:'2017-08-04  30:00',path:'/newsdetail',flag:true},
       {title:'纷9月，清凉一夏！活动奖名单。',time:'2017-8-04  20:00',path:'/newsdetail',flag:false},
       {title:'1纷10月，清凉一夏！活动获名单。',time:'201708-04  10:00',path:'/newsdetail',flag:true}],
-      tab:false
+      tab:true
     }
   },
   components:{foote,Head},

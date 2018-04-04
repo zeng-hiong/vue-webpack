@@ -58,6 +58,8 @@ export default {
      }
      #invitefriend div:last-of-type p{
       padding:0.2rem 0.3rem;
+      text-indent: 1.6em;
+      text-align: left;
      }
     ul{
       text-align: left;

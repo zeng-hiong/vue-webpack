@@ -67,14 +67,14 @@ export default {
    .btn{
       display: block;
       margin:0 auto;
-      line-height: 0.6rem;
+      line-height: 0.8rem;
       margin:0 auto;
       background: #D0B57C;
       font-size: 0.34rem;
       color:#fff;
       margin-top: 0.4rem;
       border-radius: 0.08rem;
-      height:0.6rem;
+      height:0.8rem;
       width:86%;
    }
 </style>
